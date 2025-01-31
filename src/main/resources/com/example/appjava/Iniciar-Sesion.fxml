@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<GridPane styleClass="gridpane" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.appjava.Iniciar_Sesion_Controller" >
+    <columnConstraints>
+        <ColumnConstraints percentWidth="100"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="50"/>
+        <RowConstraints percentHeight="50"/>
+    </rowConstraints>
+
+    <VBox GridPane.vgrow="ALWAYS" GridPane.columnIndex="0"  spacing="10">
+        <VBox>
+            <padding>
+                <Insets left="10" top="20"/>
+            </padding>
+            <Label text="Iniciar sesion" styleClass="iniciar"/>
+        </VBox>
+        <VBox>
+            <Text text="Al continuar, aceptas nuestro Acuerdo del usuario y confirmas que has entendido la Política de privacidad. " wrappingWidth="470"/>
+        </VBox>
+        <VBox  alignment="BOTTOM_CENTER" GridPane.vgrow="ALWAYS" spacing="5">
+            <padding>
+                <Insets  top="40"/>
+            </padding>
+            <Button text="Continuar con numero de telefono" styleClass="boton"/>
+            <Button text="Continuar con Google" styleClass="boton"/>
+        </VBox>
+
+    </VBox>
+
+</GridPane>

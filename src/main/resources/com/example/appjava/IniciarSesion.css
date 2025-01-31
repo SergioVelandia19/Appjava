@@ -1,0 +1,27 @@
+.gridpane{
+    -fx-background-color: grey;
+    -fx-border-radius: 2px;
+    -fx-border-color: purple;
+    -fx-border-width: 2px;
+}
+
+.iniciar{
+    -fx-font-family: "Courier New";
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.boton{
+    -fx-border-color: purple;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-color: grey;
+}
+
+.boton:hover{
+    -fx-text-fill: skyblue;
+    -fx-border-color: purple;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-color: grey;
+}

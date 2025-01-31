@@ -1,0 +1,12 @@
+.gridpane{
+    -fx-background-color: skyblue;
+    -fx-border-radius: 2px;
+    -fx-border-color: purple;
+    -fx-border-width: 2px;
+}
+
+.correo{
+    -fx-font-family: "Courier New";
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+}

@@ -1,0 +1,60 @@
+/* Estilo cuando se posiciona el ratón sobre cualquier botón */
+.button:hover {
+    -fx-text-fill: blueviolet;
+    }
+//los estilos de los 4 botones
+.button{
+    -fx-border-color: purple;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-color: skyblue;
+}
+
+//el estilo del boton de olvidaste tu clave
+.clave{
+    -fx-background-color: mediumslateblue;
+    -fx-border-color: skyblue;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px
+}
+
+
+//estilo de todos los label
+.texto{
+    -fx-font-family: "Courier New";
+    -fx-font-size: 30px;
+    -fx-text-fill: black;
+}
+
+//cambia el color de Velmon
+.labels:hover{
+    -fx-text-fill: blueviolet;
+
+}
+
+//estilos del vbox y hbox
+.hbox{
+    -fx-border-color: purple;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-color: mediumslateblue;
+
+}
+
+//Estilo del text area
+.textarea{
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+//estilo del split menu
+
+.split{
+
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-color: red;
+    -fx-text-fill: skyblue;
+}

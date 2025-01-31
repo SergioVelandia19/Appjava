@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<GridPane styleClass="gridpane" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.appjava.Informacion" >
+    <columnConstraints>
+        <ColumnConstraints percentWidth="24"/>
+        <ColumnConstraints percentWidth="70"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="30"/>
+        <RowConstraints percentHeight="70"/>
+    </rowConstraints>
+
+    <padding>
+        <Insets left="10" top="10" bottom="20"/>
+    </padding>
+    <HBox GridPane.columnIndex="0" GridPane.rowIndex="0" styleClass="hbox" >
+        <padding>
+            <Insets top="15" left="18" />
+        </padding>
+        <ImageView fitWidth="70" fitHeight="70">
+            <image>
+                <Image url="@Img/Captura desde 2025-01-20 08-37-58.png" />
+            </image>
+        </ImageView>
+    </HBox>
+
+
+    <VBox translateY="10" GridPane.columnIndex="0" GridPane.rowIndex="1" styleClass="hbox" >
+        <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+            <Label text="Creadores" styleClass="bienvenido"/>
+        </HBox>
+    </VBox>
+
+    <HBox translateX="35" GridPane.columnIndex="1" GridPane.rowIndex="0" styleClass="hbox" >
+        <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+            <Label text="Bienvenido a Velmon" styleClass="bienvenido"/>
+        </HBox>
+
+    </HBox>
+
+    <HBox translateX="35"  translateY="10" GridPane.columnIndex="1" GridPane.rowIndex="1" styleClass="hbox">
+
+    </HBox>
+
+</GridPane>
